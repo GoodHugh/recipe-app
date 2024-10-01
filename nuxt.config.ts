@@ -38,5 +38,9 @@ export default defineNuxtConfig({
     families: {
       Montserrat: true
     }
-  }
+  },
+
+  image: {
+    inject: true
+  },
 })
