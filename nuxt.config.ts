@@ -41,6 +41,7 @@ export default defineNuxtConfig({
   },
 
   image: {
-    inject: true
+    inject: true,
+    domains: ["https://cdn.dummyjson.com"]
   },
 })
