@@ -45,6 +45,7 @@ const {data, error} = useFetch<ApiRecipeData>('https://dummyjson.com/recipes?lim
               densities="x1"
               alt=""
               class="rounded-t-md"
+              placeholder="/icon-green.png"
           />
           <div class="flex flex-col py-6 px-4 flex-1">
             <p class="text-xl lg:text-2xl font-semibold mb-2">{{ recipe.name }}</p>
